@@ -2,7 +2,7 @@ let minutesTimer = document.querySelector("#minutes");
 let secondsTimer = document.querySelector("#seconds");
 
 minutes = 0;
-seconds = 0;
+seconds = 0; 
 
 function pomodoroTimer(){
     seconds++;

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="d-flex align-items-center justify-content-center" id="containerFather">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 text-center">Pomodoro Method</h1>
+                <div class="col-12 text-center">
+                    <span id="minutes">00</span><span>:</span><span id="seconds">00</span>
+                </div>
+            
+                <button id="settings" class="principalButtons col-3">⚙️</button>
+                <button id="playStop" class="principalButtons col-3">⏯️</button>
+                <button id="goBreak" class="principalButtons col-3">🎮</button>
+                <button id="restart" class="principalButtons col-3">🔄</button>
+
+                <p class="col-12" id="pomodoroTotalTime">Time: 0 minutes</p>
+                <p class="col-12" id="totalBreak">Break: 0 minutes</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
